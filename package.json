@@ -1,0 +1,11 @@
+{
+  "name": "aion2-jornada-de-daeva",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guia de progressão interativo e independente para AION 2",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node --check dist/data.js && node --check dist/app.js && node --test tests/state.test.mjs"
+  }
+}
